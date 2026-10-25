@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "lungeswap",
+  "version": "${version}",
+  "name": "Lunge Swap Optimizer",
+  "description": "One key: wind charge, swap to your Lunge spear, jab. 3 ticks between steps by default.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.lungeswap.LungeSwapClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
